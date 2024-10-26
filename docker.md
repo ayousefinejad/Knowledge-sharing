@@ -7,3 +7,10 @@
     ```
     docker compose up -d --build
     ```
+
+
+
+connecting to virstual server docker container 
+ ```
+ssh -L 18000:localhost:8000 root@209.53.88.242 -p 13919 -i private_key.pem
+ ```
